@@ -1,0 +1,5 @@
+asset_id,asset_name,ticker_symbol,asset_category,unit_measure,source_authority
+GOLD_USD,Gold Spot / Futures Global,GC=F,Commodity,USD/oz,Yahoo Finance
+DXY_INDEX,US Dollar Index,DX-Y.NYB,Currency Index,INDEX,Yahoo Finance
+JISDOR_IDR,Kurs Referensi JISDOR,USD/IDR,Exchange Rate,IDR/USD,Bank Indonesia
+GOLD_IDR_GRAM,Harga Emas Domestik,XAU/IDR,Derived Metric,IDR/gram,Internal Calculation

@@ -1,0 +1,12 @@
+macro_gold_elt:
+  outputs:
+    dev:
+      dbname: macro_dw
+      host: "{{ env_var('DBT_HOST', 'localhost') }}"
+      port: "{{ env_var('DBT_PORT', '5433') | int }}"
+      password: airflow
+      schema: analytics
+      threads: 4
+      type: postgres
+      user: airflow
+  target: dev

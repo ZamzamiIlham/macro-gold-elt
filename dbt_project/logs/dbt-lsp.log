@@ -1,0 +1,59 @@
+==================== 2026-11-19T08:13:21.201187Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-11-19T08:13:21.208204Z | eac3a402-b324-49f0-b77b-3a84795fbfa8 ====================
+08:13:21.208769 [info ]: Starting dbt LSP server
+08:13:21.209438 [info ]: Connecting to LSP client on port 8000
+08:13:21.213116 [info ]: Successfully connected to LSP client
+08:13:21.213456 [info ]: Creating LSP service...
+08:13:21.224037 [info ]: Creating LSP server...
+08:13:21.224066 [info ]: Starting LSP server...
+08:13:21.303085 [info ]: Loading profiles.yml
+08:13:29.515396 [info ]: Loading profiles.yml
+08:13:54.247823 [info ]: Loading profiles.yml
+08:15:25.257499 [info ]: Loading profiles.yml
+08:22:02.205001 [info ]: Loading profiles.yml
+08:22:03.771603 [info ]: Loading profiles.yml
+08:22:04.897541 [info ]: Loading profiles.yml
+08:49:40.080796 [info ]: Loading profiles.yml
+08:49:41.969997 [info ]: Loading profiles.yml
+08:52:59.779615 [info ]: Loading profiles.yml
+08:53:07.850618 [info ]: Loading profiles.yml
+08:53:08.121350 [info ]: Loading profiles.yml
+09:45:48.581869 [info ]: Loading profiles.yml
+==================== 2026-11-19T09:46:59.076720Z | aa8850ce-1bc7-480f-b187-d24dfa275a27 ====================
+09:46:59.080710 [info ]: Started loading project
+09:46:59.089378 [info ]: Loading profiles.yml
+09:46:59.094597 [info ]: Finished loading project [  0.01s]
+09:46:59.095595 [error]: [IoError (dbt1001)]: Profile 'macro_gold_elt' not found in profiles.yml
+  --> dbt_project.yml:9:10
+09:46:59.098233 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [21ms]
+09:47:00.158780 [info ]: Loading profiles.yml
+==================== 2026-11-19T09:47:13.247923Z | 0990b8a7-9cd9-4a42-861c-8deb274fe920 ====================
+09:47:13.248135 [info ]: Started loading project
+09:47:13.249180 [info ]: Loading profiles.yml
+09:47:13.249678 [info ]: Finished loading project [  0.00s]
+09:47:13.249883 [error]: [IoError (dbt1001)]: Profile 'macro_gold_elt' not found in profiles.yml
+  --> dbt_project.yml:9:10
+09:47:13.250024 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [2ms]
+==================== 2026-11-19T09:47:14.348167Z | 8b52bc34-e705-467a-8065-ca736dbead7c ====================
+09:47:14.348327 [info ]: Started loading project
+09:47:14.349158 [info ]: Loading profiles.yml
+09:47:14.349594 [error]: [InvalidConfig (dbt1005)]: Configuration Error: The 'postgres' adapter is not yet supported by dbt. Supported adapters: snowflake, bigquery, databricks, redshift, duckdb, salesforce, clickhouse. To use an experimental adapter, set the environment variable DBT_ALLOW_EXPERIMENTAL_ADAPTERS=true. Note that experimental adapters may be unstable and are not yet recommended for production use.
+09:47:14.349725 [info ]: Finished loading project [  0.00s]
+09:47:14.349741 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [1ms]
+==================== 2026-11-19T09:49:33.435013Z | 0c4fcf05-a1ec-4af2-980e-7f69b75a1404 ====================
+09:49:33.435131 [info ]: Started loading project
+09:49:33.436062 [info ]: Loading profiles.yml
+09:49:33.436574 [error]: [InvalidConfig (dbt1005)]: Configuration Error: The 'postgres' adapter is not yet supported by dbt. Supported adapters: snowflake, bigquery, databricks, redshift, duckdb, salesforce, clickhouse. To use an experimental adapter, set the environment variable DBT_ALLOW_EXPERIMENTAL_ADAPTERS=true. Note that experimental adapters may be unstable and are not yet recommended for production use.
+09:49:33.436957 [info ]: Finished loading project [  0.00s]
+09:49:33.437031 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [2ms]
+09:50:37.343894 [info ]: Loading profiles.yml
+09:50:59.603871 [info ]: Loading profiles.yml
+09:51:04.522600 [info ]: Loading profiles.yml

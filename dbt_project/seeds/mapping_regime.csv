@@ -1,0 +1,6 @@
+regime_id,regime_label,risk_level,action_recommendation
+SAFE_HAVEN_RALLY,Safe-Haven Demand & Rupiah Hedge,HIGH,"Emas global menguat di atas MA180 disertai pelemahan Rupiah. Pertimbangkan akumulasi bertahap sebagai lindung nilai inflasi dan kurs."
+GLOBAL_BULL_STABLE_FX,Global Gold Bullish (Kurs Stabil),MEDIUM,"Kenaikan didorong oleh harga emas dunia sementara USD/IDR terkendali. Cocok untuk strategi trend-following jangka menengah."
+FX_DRIVEN_INFLATION,Depresiasi Rupiah Dominan,HIGH,"Harga emas global cenderung mendatar/turun, namun emas domestik naik akibat pelemahan JISDOR. Waspadai volatilitas nilai tukar."
+DXY_PRESSURE_BEARISH,Tekanan Penguatan Dolar AS (DXY),LOW,"Penguatan DXY menekan harga emas di bawah MA180. Tahan pembelian agresif dan tunggu konfirmasi pembalikan arah."
+NEUTRAL_CONSOLIDATION,Konsolidasi Pasar Normal,LOW,"Pergerakan emas dan kurs berada dalam rentang wajar. Lakukan dollar-cost averaging (DCA) rutin sesuai profil risiko."

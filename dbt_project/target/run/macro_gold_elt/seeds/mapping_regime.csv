@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table "macro_dw"."analytics_gold"."mapping_regime" ("regime_id" text,"regime_label" text,"risk_level" text,"action_recommendation" text)
+  ;
+    -- dbt seed --
+    
+          insert into "macro_dw"."analytics_gold"."mapping_regime" ("regime_id", "regime_label", "risk_level", "action_recommendation") values
+          (%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s)
+      
+
+;
+  

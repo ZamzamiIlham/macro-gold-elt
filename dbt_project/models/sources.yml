@@ -1,0 +1,10 @@
+sources:
+  - name: raw
+    schema: raw  
+    tables:
+      - name: dxy_index
+        description: Raw customer food from source system.
+      - name: gold_prices
+        description: Raw customer food from source system.
+      - name: jisdor_rates
+        description: Raw customer food from source system.
