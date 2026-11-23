@@ -17,3 +17,4 @@ SELECT
     ingested_at
 FROM dxy_index
 WHERE urutan = 1
+ORDER BY trade_date DESC

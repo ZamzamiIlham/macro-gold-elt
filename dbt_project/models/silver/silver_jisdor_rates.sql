@@ -14,3 +14,4 @@ SELECT
     ingested_at
 FROM jisdor_rates
 WHERE urutan = 1
+ORDER BY trade_date DESC
