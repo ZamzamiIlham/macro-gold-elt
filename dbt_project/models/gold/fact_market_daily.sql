@@ -46,3 +46,6 @@ INNER JOIN {{ ref('dim_date') }} d
     ON d.date_id = rs.trade_date
 WHERE d.is_weekend = FALSE
 ORDER BY rs.trade_date DESC, rs.asset_id
+
+--3535.8 | 103.67
+--103.81       |  103.81

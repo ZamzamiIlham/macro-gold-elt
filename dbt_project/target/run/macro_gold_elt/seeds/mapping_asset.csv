@@ -1,9 +1,7 @@
 
     
     
-    
-    create table "macro_dw"."analytics_gold"."mapping_asset" ("asset_id" text,"asset_name" text,"ticker_symbol" text,"asset_category" text,"unit_measure" text,"source_authority" text)
-  ;
+    truncate table "macro_dw"."analytics_gold"."mapping_asset";
     -- dbt seed --
     
           insert into "macro_dw"."analytics_gold"."mapping_asset" ("asset_id", "asset_name", "ticker_symbol", "asset_category", "unit_measure", "source_authority") values

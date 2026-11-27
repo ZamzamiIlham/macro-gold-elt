@@ -1,6 +1,21 @@
 version: 2
 
 models:
+  - name: mart_gold_macro_analytics
+    columns:
+      - name: date_id
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_id
+      - name: regime_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_market_regime')
+              field: regime_id
   - name: fact_market_daily
     data_tests: 
       - dbt_utils.unique_combination_of_columns:
